@@ -1,0 +1,138 @@
+body {
+    background: linear-gradient(to top right, #fff, #00e2ff, #00f, #000);
+}
+
+a {
+    font-size: 15px;
+    text-decoration: none;
+    background: #D5DBDB;
+    color: #273746;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    box-shadow: 0px 5px 0px #85929E;
+    
+}
+
+a:hover {
+    box-shadow: 0px 2px 2px 2px black;
+    background: #ccc;
+}
+
+a:active{
+    
+    box-shadow: none;
+}
+#menu {
+    font-family: sans-serif;
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 110px;
+    display: block;
+    margin: 2px auto;
+    border: 5px solid gray;
+    background: url("/imagenes/social%20network.jpg");     
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: local;
+    background-repeat: no-repeat;
+}
+
+   #Ingresar {
+    
+    float: right;
+    margin: 6px 8px;
+    background: #AEB6BF;
+    text-decoration-line: underline;
+   
+    }
+
+    #Comprar {
+    float: right;
+    margin: 6px 8px;
+    background: #AEB6BF;
+    
+    }
+
+#contenido {
+     position: relative;
+     text-align: center;
+     display: block;
+     float: left;
+     margin: 2px;
+     width: 100%;
+     float: left;
+     
+}
+
+
+   #menu2{
+    font-family: sans-serif;
+    background-color: silver;
+    width: 24%;
+    height: 500px;
+    display: block;
+    float: left;
+    margin: 2px;
+     
+    }
+
+   #contenido2  {
+    font-family: sans-serif;
+    color: black;
+    width: 50%;
+    height: 500px;
+    background: silver; 
+    display: block;
+    float: left;
+    margin: 2px;
+    }  
+
+#contenido2 p { 
+    text-align: justify;
+    margin: 8px;  
+    
+    
+    }
+
+   #menu3 {
+    
+    font-family: sans-serif;
+    background-color: silver;
+    width: 24%;
+    height: 500px;
+    display: block;
+    float: left;
+    margin: 2px;
+        
+    }
+        
+        #menu3 ul{
+            margin-left: 4px;
+          
+            display: block;
+            text-align:inherit;
+            list-style-position: outside;
+            list-style-image:url("/imagenes/cart_put.png");
+            
+    
+}
+        #menu3 ul li{
+            background-color: silver;
+            font-style: italic;
+            text-align: left;
+}
+  
+footer {
+    position: relative;
+    text-align: center;
+    background-color: #E5E7E9;
+    width: 100%;
+    height: 50px;
+    display: block;
+    float: right;
+    margin: 2px;
+    clear: both;
+}
+
